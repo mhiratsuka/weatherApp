@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>my weather app</title>
+</head>
+<body>
+  <section class="main">
+  <div class="container">
+    <h1>weather app 2017</h1>
+      <form id="weather">
+      <select name="city">
+        <option value="city1">Vancouver</option>
+      </select>
+      <select name="country">
+        <option value="country1">Cananda</option>
+      </select>
+   <!--      <input type="text" placeholder="city" id="city" name="citybox">
+        <input type="text" placeholder="country" id="country" name="countrybox"> -->
+        <button type="button" id="addArea" onclick="onButtonClick()">get weather</button>
+      </form>
+      <div id="display" class="displayWeather">
+       <!-- my weather data and images goes in here ;)-->
+      </div>
+    </div>
+  </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -3,7 +3,7 @@ function onButtonClick(){
 
 //Get data from open weathermap
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?id=6173331&appid=80e55fa739508889fe415e92805fa2b6&units=metric', true);
+xhr.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?id=myApi&units=metric', true);
 xhr.Onload = function(){
 	var data = JSON.parse(xhr.responseText); 
 	// console.log(data);

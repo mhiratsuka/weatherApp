@@ -27,21 +27,36 @@ h1 {
   background-color: var(--bgcolor);
 }
 
+h2{
+  text-align: left;
+}
+
 .displayWeather {
   margin-top: 20px;
   padding: 20px;
   background-color: white;
   width: 80vw;
   min-height: 60vh;
+  text-align: center;
 }
 
-input {
+}
+
+option {
   padding: 6px;
   border-radius: 5px;
   color: var(--drkGr);
   border: none;
   outline: none;
 }
+
+/*input {
+  padding: 6px;
+  border-radius: 5px;
+  color: var(--drkGr);
+  border: none;
+  outline: none;
+}*/
 
 button {
   padding: 5px;
@@ -51,4 +66,9 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+img{
+  width: 100px;
+  height: 100px;
 }

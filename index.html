@@ -10,16 +10,15 @@
   <section class="main">
   <div class="container">
     <h1>weather app 2017</h1>
-      <form id="weather">
-      <select name="city">
-        <option value="city1">Vancouver</option>
+      <form id="weather" name="wea_place">
+      <select id="selectcity" name="city_name">
+        <option value="cityone">Vancouver</option>
       </select>
-      <select name="country">
-        <option value="country1">Cananda</option>
+      <select id="country" name="country_name">
+        <option value="countryone">Cananda</option>
       </select>
-   <!--      <input type="text" placeholder="city" id="city" name="citybox">
-        <input type="text" placeholder="country" id="country" name="countrybox"> -->
-        <button type="button" id="addArea" onclick="onButtonClick()">get weather</button>
+
+        <button type="button" id="btn">get weather</button>
       </form>
       <div id="display" class="displayWeather">
        <!-- my weather data and images goes in here ;)-->
